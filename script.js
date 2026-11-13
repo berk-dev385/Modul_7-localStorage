@@ -25,7 +25,7 @@ function saveData(){
 
 
 function saveToLocalStorage(){
-    localStorage.setItem("myDataKey", Date.now());
+    localStorage.setItem("myDataKey", JSON.stringify(myData));
 }
 
 
