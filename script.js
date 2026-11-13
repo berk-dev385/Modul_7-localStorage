@@ -44,6 +44,4 @@ function render(){
     }
 }     
 
-// Rekapitulation meines Mentors: 
-// "Unzwar weil wir getFromLocalStorage machen!
-// ""Bedeutet das wir es aus dem Local storage mit dem Key rausziehen!
+
