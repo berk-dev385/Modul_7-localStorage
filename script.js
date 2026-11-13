@@ -25,11 +25,13 @@ function saveData(){
 
 
 function saveToLocalStorage(){
-    localStorage.setItem("myDataKey", JSON.stringify(myData));
+    localStorage.setItem("myData", JSON.stringify(myData));
 }
 
 
 function getFromLocalStorage() {
+    let obj = JSON.parse(localStorage.getItem("myData"));
+    console.log(obj);
 }
 
 
