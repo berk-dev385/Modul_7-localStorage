@@ -42,4 +42,4 @@ function render(){
     for (let index = 0; index < myData.length; index++) {
         contentRef.innerHTML += `<p>${myData[index]}</p>`
     }
-}  
+}     
