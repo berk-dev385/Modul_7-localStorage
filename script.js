@@ -44,9 +44,5 @@ function render(){
     }
 }     
 
-//deep dive in Kevins trick.
-//Cannot read properties of null (reading 'length')wird angezeigt
-//Witziger Weise ist die Trickfehleranzeige auf englisch anders herum zu lesen
-// <-- Unzwar "reading length" ist das was wir tun wollen , können wir aber nicht von null
-// ne, also Cannot read properties of null, was fürne properties wollen wir readen ? Ist wir reading length
-//Ok das mit dem englisch hat nicht geklappt, aber wir lesen length die propertie length von null
+// wir prüfen jetzt nach der aufschlussreichen Erklärung die Frage "welchen null"
+//und wenn wir in der console auf die zeile kleicken dann wird es schon einemm angezeigt. 
