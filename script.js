@@ -44,4 +44,5 @@ function render(){
     }
 }     
 
-Er vermisst seine Banana, not Banana und Apple. 
+//deep dive in Kevins trick.
+//Cannot read properties of null (reading 'length')wird angezeigt
