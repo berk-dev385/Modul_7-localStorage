@@ -25,11 +25,13 @@ function saveData(){
 
 
 function saveToLocalStorage(){
-    localStorage.setItem("myDataKey", JSON.stringify(myData));
+    localStorage.setItem("myData", JSON.stringify(myData));
 }
 
 
 function getFromLocalStorage() {
+    let myArr = JSON.parse(localStorage.getItem("myData"));
+    myData = myArr; 
 }
 
 
@@ -40,4 +42,6 @@ function render(){
     for (let index = 0; index < myData.length; index++) {
         contentRef.innerHTML += `<p>${myData[index]}</p>`
     }
-}
+}     
+
+
