@@ -44,5 +44,4 @@ function render(){
     }
 }     
 
-// wir prüfen jetzt nach der aufschlussreichen Erklärung die Frage "welchen null"
-//und wenn wir in der console auf die zeile kleicken dann wird es schon einemm angezeigt. 
+// wir wollen natürlich myData lesen, ist nicht sehr überraschend da wir das ja GERADE bearbeitet haben.
