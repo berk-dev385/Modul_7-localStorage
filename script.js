@@ -45,3 +45,8 @@ function render(){
 }     
 
 // wir wollen natürlich myData lesen, ist nicht sehr überraschend da wir das ja GERADE bearbeitet haben.
+// Der Trick wird im Debugger fortgeführt. 
+//Also da aber tatsächlich vor der render(), vor dem hier (myData) nichts passiert
+//außer im getFromLocalStorage, Das heisst wenn wir uns den getFromLocal storage angucken 
+// Muss schon....Weil das einzige was wir in dieser Funktion machen ist
+//myData = myArr setzen. Das heisst myArr muss null sein. 
