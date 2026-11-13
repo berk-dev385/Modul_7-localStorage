@@ -1,7 +1,9 @@
 let myData = ['delfin','not delfin', 'Apple'];
 
 function init(){
-    localStorage.setItem("myCat", "Tom");
+    //localStorage.setItem("myCat", "Tom");
+    //console.log(myData); 
+    //console.log(JSON.stringify(myData));
     getFromLocalStorage();
     render()
 }
@@ -23,6 +25,7 @@ function saveData(){
 
 
 function saveToLocalStorage(){
+    localStorage.setItem("myDataKey", Date.now());
 }
 
 
