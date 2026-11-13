@@ -30,7 +30,7 @@ function saveToLocalStorage(){
 
 
 function getFromLocalStorage() {
-    let obj = JSON.parse(localStorage.getItem("myData"));
+    let myArr = JSON.parse(localStorage.getItem("myData"));
     console.log(obj);
 }
 
