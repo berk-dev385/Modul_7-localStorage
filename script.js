@@ -1,4 +1,4 @@
-let myData = ['Banana','not Banana', 'Apple'];
+let myData = ['delfin','not delfin', 'Apple'];
 
 function init(){
     getFromLocalStorage();
