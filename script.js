@@ -1,6 +1,7 @@
 let myData = ['delfin','not delfin', 'Apple'];
 
 function init(){
+    localStorage.setItem("myCat", "Tom");
     getFromLocalStorage();
     render()
 }
