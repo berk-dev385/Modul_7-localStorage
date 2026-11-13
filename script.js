@@ -32,10 +32,7 @@ function saveToLocalStorage(){
 function getFromLocalStorage() {
     let myArr = JSON.parse(localStorage.getItem("myData"));
    
-   //Aufgabe
-   //In Zeile 39 myArr; gegenprüfen mit einer Hilfsabfrage ob myArr = 0 ist.
-   // Und wenn das null ist dann mache ich das in zeile 39 eben nicht.    
-   // also if myArr = 0, dann das in Zeiel 39 nicht machen   
+  
     if (myArr !== null) {
     myData = myArr;
 }
